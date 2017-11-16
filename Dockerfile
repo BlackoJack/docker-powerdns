@@ -58,6 +58,7 @@ RUN chmod 0644 * \
 
 RUN apk --update add --no-cache \
     bash \
+    tzdata \
     supervisor \
     pdns \
     pdns-doc \
