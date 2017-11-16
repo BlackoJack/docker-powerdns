@@ -37,7 +37,7 @@ docker run \
 docker run \
     --restart=always \
     -d \
-    -e "CUSTOM_DNS=8.8.8.8;8.8.4.4;[2001:4860:4860::8888];[2001:4860:4860::8844]" \
+    -e "CUSTOM_DNS=176.103.130.130;176.103.130.131" \
     -e "API_KEY=my-awesome-api-key" \
     -e "CRONTAB_TIME=0 10 * * *" \
     -e "ENABLE_ADBLOCK=true" \
