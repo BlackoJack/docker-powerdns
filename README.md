@@ -28,7 +28,7 @@ docker run \
     -p 53:53/udp \
     -p 80:8080 \
     -v "/home/user/data:/srv/data" \
-    julianxhokaxhiu/docker-powerdns
+    blackojack/docker-powerdns
 ```
 
 ### Advanced
@@ -45,5 +45,5 @@ docker run \
     -p 53:53/udp \
     -p 80:8080 \
     -v "/home/user/data:/srv/data" \
-    julianxhokaxhiu/docker-powerdns
+    blackojack/docker-powerdns
 ```
