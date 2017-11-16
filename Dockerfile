@@ -12,7 +12,7 @@ ENV DATA_DIR /srv/data
 # Custom DNS where to forward your request, if not found inside the DNS Server.
 # By default this will be forwarded to Google DNS for IPv4 and IPv6 requests.
 # See https://doc.powerdns.com/md/recursor/settings/#forward-zones
-ENV CUSTOM_DNS "8.8.8.8;8.8.4.4;[2001:4860:4860::8888];[2001:4860:4860::8844]"
+ENV CUSTOM_DNS "176.103.130.130;176.103.130.131"
 
 # Custom API Key for PowerDNS.
 # Leave empty to autogenerate one ( HIGHLY SUGGESTED! )
